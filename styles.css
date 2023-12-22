@@ -1,10 +1,10 @@
-body {
+/* body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
     margin: 0;
-    padding: 0; /* Elimina cualquier relleno por defecto del cuerpo */
+    padding: 0;
     display: flex;
-    flex-direction: column; /* Alinea los elementos hijos en columna */
+    flex-direction: column; 
     align-items: center;
     min-height: 100vh;
 }
@@ -15,14 +15,10 @@ body {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-top: 20px; /* Ajusta el espacio superior según sea necesario */
-}
+    margin-top: 20px;
+} */
 
-h1 {
-    color: #333;
-}
-
-#fecha, #hora, #fechaHorolog, #horaHorolog {
+#fechaActualHumano, #horaActualHumano, #fechaActualHorolog, #horaActualHorolog {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
     margin-top: 10px;
@@ -30,6 +26,6 @@ h1 {
     display: inline-block; /* Para que estén en la misma línea */
 }
 
-#hora::before, #horaHorolog::before {
+#horaActualHumano::before, #horaActualHorolog::before {
     content: " - "; /* Agrega un guión antes del campo de la hora */
 }

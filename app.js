@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
     function actualizarFechaYHora() {
-        const fechaElemento = document.getElementById('fecha');
-        const horaElemento = document.getElementById('hora');
-        const fechaHorologElemento = document.getElementById('fechaHorolog');
-        const horaHorologElemento = document.getElementById('horaHorolog');
+        const fechaElemento = document.getElementById('fechaActualHumano');
+        const horaElemento = document.getElementById('horaActualHumano');
+        const fechaHorologElemento = document.getElementById('fechaActualHorolog');
+        const horaHorologElemento = document.getElementById('horaActualHorolog');
 
         const ahora = new Date();
 
