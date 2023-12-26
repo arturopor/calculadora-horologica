@@ -26,6 +26,10 @@
     display: inline-block; /* Para que estén en la misma línea */
 }
 
+#fechaConvertirHorolog,#horaConvertirHorolog {
+    width:100px;
+}
+
 #horaActualHumano::before, #horaActualHorolog::before {
     content: " - "; /* Agrega un guión antes del campo de la hora */
 }

@@ -32,14 +32,16 @@
                 Consulta fecha
             </div>
             <div class="card-body bg-dark-subtle">
-                <input lang="es" type="date" placeholder="Fecha humano">
+                <label for="fechaConvertirHumano">Humano:</label>
+                <input lang="es" type="date" placeholder="Fecha humano" id="fechaConvertirHumano">
                 <br>
                 <div class="btn-group m-1" role="group" aria-label="Conversión fecha">
-                    <button type="button" class="btn btn-outline-primary">v Humano a horolog</button>
-                    <button type="button" class="btn btn-outline-primary">^ Horolog a humano</button>
+                    <button class="btn btn-outline-primary" id="btnConvertirAFechaHorolog">v Humano a horolog</button>
+                    <button class="btn btn-outline-primary" id="btnConvertirAFechaHumano">^ Horolog a humano</button>
                 </div>
                 <br>
-                <input type="text" placeholder="Fecha horolog">
+                <label for="fechaConvertirHorolog">Horolog:</label>
+                <input type="number" placeholder="Fecha horolog" id="fechaConvertirHorolog">
             </div>
         </div>
     </div>
@@ -49,14 +51,16 @@
                 Consulta hora
             </div>
             <div class="card-body bg-dark-subtle">
-                <input lang="es" value="00:00:00" type="time" step="1">
+                <label for="horaConvertirHumano">Humano:</label>
+                <input type="time" step="1" id="horaConvertirHumano">
                 <br>
                 <div class="btn-group m-1" role="group" aria-label="Conversión hora">
-                    <button type="button" class="btn btn-outline-primary">v Humano a horolog</button>
-                    <button type="button" class="btn btn-outline-primary">^ Horolog a humano</button>
+                    <button type="button" class="btn btn-outline-primary" id="btnConvertirAHoraHorolog">v Humano a horolog</button>
+                    <button type="button" class="btn btn-outline-primary" id="btnConvertirAHoraHumano">^ Horolog a humano</button>
                 </div>
                 <br>
-                <input type="text" placeholder="Hora horolog">
+                <label for="horaConvertirHorolog">Horolog:</label>
+                <input type="number" placeholder="Hora horolog" id="horaConvertirHorolog">
             </div>
         </div>
     </div>
