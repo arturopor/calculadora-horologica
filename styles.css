@@ -19,7 +19,7 @@
 } */
 
 #fechaActualHumano, #horaActualHumano, #fechaActualHorolog, #horaActualHorolog {
-    font-family: 'Courier New', Courier, monospace;
+    /* font-family: 'Courier New', Courier, monospace; */
     font-size: 2rem;
     margin-top: 10px;
     color: #555;
